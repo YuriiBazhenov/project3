@@ -12,7 +12,7 @@ class bookTrip {
 
 
     bookButton(){
-        return cy.get('.Button_c_button__TmkRS')
+        return cy.get('.Button_c_button__TmkRS').click()
     }
 
     selectors(){
